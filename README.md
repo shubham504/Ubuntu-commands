@@ -12,10 +12,15 @@ sudo apt-get autoclean
 sudo apt-get clean
 sudo apt-get autoremove
 
-$ sudo apt install ppa-purge
-$ sudo ppa-purge ppa:morphis/anbox-support
+# Install any package or repo
 
-wine uninstaller
+sudo apt install ppa-purge
+sudo ppa-purge ppa:morphis/anbox-support
+
+
+# Uninstall any package or repo
+
+sudo apt-add-repository -r ppa:morphis/anbox-support
 sudo apt list --installed
 sudo apt-get remove packagename
 sudo apt-get remove --purge (package name)
@@ -24,17 +29,18 @@ sudo apt-get purge (package name)
 
 ```
 
-uninstall repo
-sudo apt-add-repository -r ppa:morphis/anbox-support
+# PHP Version switch
 
+```
 -------------------------------
 
 sudo update-alternatives --config php
 
 -------------------------------
+```
 
-Install and Uninstall environment (Ubuntu, Linux mint, Ubuntu mate)
-
+# Install and Uninstall environment (Ubuntu, Linux mint, Ubuntu mate)
+```
 $ sudo apt install -y cinnamon-desktop-environment
 $ sudo reboot
 
@@ -61,14 +67,16 @@ wine gecko
 wine mono
 
 
+
 ''''''''''''''''''''''''''''''
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 sudo apt-get remove --autoremove wine-stable wine-stable-amd64
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-It will ask you to continue in terminal press y and hit Enter,
-after complete its process run these 3 more commands,
-
+It will ask you to continue in terminal press y and hit Enter, after complete its process run these 3 more commands,
+```
+# Mix commands
+```
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 sudo apt-get update
 sudo apt update && sudo apt upgrade -y
