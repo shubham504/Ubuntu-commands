@@ -39,6 +39,40 @@ sudo update-alternatives --config php
 -------------------------------
 ```
 
+# Connect SSH without putty
+
+```
+--------------------------------------------------------
+Example:- sudo ssh -i "/home/shubham504/Documents/file.pem" ec2-user@12.123.1.123
+
+Discription:- sudo ssh -i "/~file_path/~file_name.pem" {username}@{host}
+
+![Image of SSH.Ref1](https://github.com/shubham504/Ubuntu-commands/images/PPKtoPEM.png)
+--------------------------------------------------------
+
+```
+# Docker Commands
+```
+#1 Commands to delete all images volues and  docker container.
+
+sudo docker rm -f $(sudo docker ps -a -q)
+sudo docker volume rm $(sudo docker volume ls -q)
+
+Belog commands should run in case of space issue only and not on live.
+sudo  docker image prune --all
+
+-------------------------------------
+#2 Commands to build and start servers. 
+
+Go to directory of react and run first and second command to start server infinitely
+
+sudo docker build -t public_html . ========> With . public_html is react folder
+sudo docker run -p 8080:80 public_html:latest
+
+Below command will execute and provide control to console so you can stop it and re-build
+sudo docker run  -it --init -p 8080:80 public_html:latest
+
+```
 # Install and Uninstall environment (Ubuntu, Linux mint, Ubuntu mate)
 ```
 $ sudo apt install -y cinnamon-desktop-environment
@@ -91,3 +125,9 @@ libglib2.0-dev
 
 sudo ./focalgdm3 /usr/share/backgrounds/Yaru-MATE.jpg
 sudo ./focalgdm3 --reset
+```
+
+# GitHub Formating Markup
+```
+https://guides.github.com/features/mastering-markdown/
+```
