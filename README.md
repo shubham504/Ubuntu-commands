@@ -40,17 +40,14 @@ sudo update-alternatives --config php
 ```
 
 # Connect SSH without putty
-
 ```
 --------------------------------------------------------
 Example:- sudo ssh -i "/home/shubham504/Documents/file.pem" ec2-user@12.123.1.123
-
 Discription:- sudo ssh -i "/~file_path/~file_name.pem" {username}@{host}
-
-![Image of SSH.Ref1](https://github.com/shubham504/Ubuntu-commands/images/PPKtoPEM.png)
 --------------------------------------------------------
-
 ```
+![Image of SSH.Ref1](https://github.com/shubham504/Ubuntu-commands/images/PPKtoPEM.png)
+
 # Docker Commands
 ```
 #1 Commands to delete all images volues and  docker container.
