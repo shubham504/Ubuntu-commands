@@ -46,7 +46,7 @@ Example:- sudo ssh -i "/home/shubham504/Documents/file.pem" ec2-user@12.123.1.12
 Discription:- sudo ssh -i "/~file_path/~file_name.pem" {username}@{host}
 --------------------------------------------------------
 ```
-![Image of SSH.Ref1](https://github.com/shubham504/Ubuntu-commands/images/PPKtoPEM.png)
+![Image of SSH.Ref1](https://github.com/shubham504/Ubuntu-commands/blob/main/images/PPKtoPEM.png)
 
 # Docker Commands
 ```
