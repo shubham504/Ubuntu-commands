@@ -17,13 +17,34 @@ $ sudo ppa-purge ppa:morphis/anbox-support
 
 wine uninstaller
 sudo apt list --installed
+sudo apt-get remove packagename
 sudo apt-get remove --purge (package name)
 sudo apt-get remove (package name)
 sudo apt-get purge (package name)
 
 ```
 
-`````````````````````````````
+uninstall repo
+sudo apt-add-repository -r ppa:morphis/anbox-support
+
+-------------------------------
+
+sudo update-alternatives --config php
+
+-------------------------------
+
+Install and Uninstall environment (Ubuntu, Linux mint, Ubuntu mate)
+
+$ sudo apt install -y cinnamon-desktop-environment
+$ sudo reboot
+
+
+$ sudo apt-get remove cinnamon-desktop-environment
+$ sudo apt remove -y cinnamon cinnamon-*
+$ sudo apt autoremove -y
+$ sudo reboot
+
+-------------------------------
 
 skypeforlinux --secondary
 
