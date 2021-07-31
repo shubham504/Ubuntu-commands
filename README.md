@@ -19,6 +19,7 @@ sudo reboot  ==> (Reboot the system to see if the issue was resolved)
 -----------------------------------------
 # Install any package or repo
 
+sudo apt-get install <software name>
 sudo apt install ppa-purge
 sudo ppa-purge ppa:morphis/anbox-support
 
@@ -37,7 +38,7 @@ sudo apt-get purge (package name)
 
 sudo apt-get install --reinstall ubuntu-desktop
 
-```````````````````````````````````````````
+-----------------------------------------
 ```
 
 # PHP Version switch
