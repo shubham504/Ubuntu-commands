@@ -5,39 +5,18 @@ Most used ubuntu commands
 sudo apt-get update
 sudo chmod 777 -R /var/www/html
 
-sudo apt-get update
+sudo dpkg --configure -a  ==> (Try configuring unconfigured packages)
+sudo apt-get update   ==> (Update the contents of the repositories)
+sudo apt-get -f install ==> (Try to fix missing dependencies)
+sudo apt-get full-upgrade ==> (Update all packages with new versions available)
 sudo apt update && sudo apt upgrade -y
 sudo apt-get update && sudo apt-get dist-upgrade
 sudo apt-get autoclean
 sudo apt-get clean
-sudo apt-get autoremove
+sudo reboot  ==> (Reboot the system to see if the issue was resolved)
 
 
-# Try configuring unconfigured packages:
-sudo dpkg --configure -a
-
-# Update the contents of the repositories
-sudo apt-get update
-
-# Try to fix missing dependencies:
-sudo apt-get -f install
-
-# Update all packages with new versions available:
-sudo apt-get full-upgrade
-
-# Reinstall Ubuntu desktop:
-sudo apt-get install --reinstall ubuntu-desktop
-
-# Remove unnecessary packages:
-sudo apt-get autoremove
-
-# Delete downloaded packages already installed:
-sudo apt-get clean
-
-# Reboot the system to see if the issue was resolved:
-sudo reboot
-
-
+-----------------------------------------
 # Install any package or repo
 
 sudo apt install ppa-purge
@@ -53,6 +32,12 @@ sudo apt-get remove --purge (package name)
 sudo apt-get remove (package name)
 sudo apt-get purge (package name)
 
+
+# Reinstall Ubuntu desktop:
+
+sudo apt-get install --reinstall ubuntu-desktop
+
+```````````````````````````````````````````
 ```
 
 # PHP Version switch
