@@ -48,6 +48,12 @@ sudo apt-get install --reinstall ubuntu-desktop
 
 sudo update-alternatives --config php
 
+# node version update
+
+npm cache clean -f 
+sudo npm install -g n
+sudo n latest 
+
 -------------------------------
 ```
 
