@@ -7,7 +7,10 @@ sudo chmod 777 -R /var/www/html
 
 sudo dpkg --configure -a  ==> (Try configuring unconfigured packages)
 sudo apt-get update   ==> (Update the contents of the repositories)
+
+sudo apt --fix-broken install
 sudo apt-get -f install ==> (Try to fix missing dependencies)
+sudo apt-get -f install
 
 sudo apt-get full-upgrade ==> (Update all packages with new versions available)
 sudo apt update && sudo apt upgrade -y
