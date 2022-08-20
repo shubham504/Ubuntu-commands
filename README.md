@@ -12,6 +12,12 @@ sudo apt --fix-broken install
 sudo apt-get -f install ==> (Try to fix missing dependencies)
 sudo apt-get -f install
 
+
+sudo apt-get update
+sudo apt update && sudo apt upgrade -y
+sudo apt-get clean && sudo apt-get autoclean
+sudo apt-get remove && sudo apt-get autoremove
+
 sudo apt-get full-upgrade ==> (Update all packages with new versions available)
 sudo apt update && sudo apt upgrade -y
 sudo apt-get update && sudo apt-get dist-upgrade
