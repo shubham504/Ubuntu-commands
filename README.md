@@ -33,6 +33,20 @@ sudo apt-get install <software name>
 sudo apt install ppa-purge
 sudo ppa-purge ppa:morphis/anbox-support
 
+---------------------------------------------
+
+# Install any tar package
+
+tar -xzf archive-name.tar.gz
+cd archive-name
+./configure
+make
+sudo make install
+
+---------------------------------------------
+
+
+
 
 # Uninstall any package or repo
 
