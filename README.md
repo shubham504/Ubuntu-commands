@@ -77,6 +77,8 @@ sudo update-alternatives --config php
 npm cache clean -f 
 sudo npm install -g n
 sudo n latest 
+npm run develop
+npm start
 
 npm install --save --legacy-peer-deps
 
