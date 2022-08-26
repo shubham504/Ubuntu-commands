@@ -78,6 +78,8 @@ npm cache clean -f
 sudo npm install -g n
 sudo n latest 
 
+npm install --save --legacy-peer-deps
+
 -------------------------------
 ```
 
