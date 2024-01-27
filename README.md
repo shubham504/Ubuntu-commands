@@ -4,6 +4,7 @@ Most used ubuntu commands
 ```
 sudo apt-get update
 sudo chmod 777 -R /var/www/html
+sudo do-release-upgrade --devel-release (20.04 to 23.04 exp.)
 
 sudo dpkg --configure -a  ==> (Try configuring unconfigured packages)
 sudo apt-get update   ==> (Update the contents of the repositories)
