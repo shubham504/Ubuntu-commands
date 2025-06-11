@@ -82,6 +82,12 @@ sudo n latest
 npm run develop
 npm start
 
+nvm use 16
+
+# Angular version update
+ng update @angular/core@17 @angular/cli@17
+
+
 npm install --save --legacy-peer-deps
 
 -------------------------------
